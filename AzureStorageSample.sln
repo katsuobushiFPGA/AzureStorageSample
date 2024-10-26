@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureStorageSample", "AzureStorageSample\AzureStorageSample.csproj", "{93BED642-1EF1-4FFE-B1F6-7B2534182D3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93BED642-1EF1-4FFE-B1F6-7B2534182D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BED642-1EF1-4FFE-B1F6-7B2534182D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BED642-1EF1-4FFE-B1F6-7B2534182D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BED642-1EF1-4FFE-B1F6-7B2534182D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {499D2DB4-B3CF-4F8D-A326-14BC3CDA68E8}
+	EndGlobalSection
+EndGlobal
