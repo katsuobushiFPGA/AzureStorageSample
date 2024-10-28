@@ -8,11 +8,17 @@ namespace AzureStorageSample
     {
         static async Task Main(string[] args)
         {
+            // 環境変数の取得
+            var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production";
+
             // 設定ファイルの読み込み
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{environment}.json", optional: true)
                 .Build();
+
+            Console.WriteLine($"Current Environment: {environment}");
 
             // サービスプロバイダーの構築
             var serviceProvider = new ServiceCollection()
